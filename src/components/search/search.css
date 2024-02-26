@@ -1,0 +1,61 @@
+.container {
+    height: 80vh;
+    width: 30vw;
+    border-radius: 3rem;
+    display: grid;
+    justify-content: center;
+    margin-top: 5vh;
+    margin-left: 30vw;
+    background: radial-gradient(blue,black);
+}
+
+.search {
+    margin-top: 1.25rem;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.weathericon{
+    margin-top: 50 px;
+    height: 50px;
+    width:70px;
+    align-items: center;
+}
+
+
+.searchButton {
+    height: 1.75rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    outline: none;
+    border:  2px solid black;
+}
+
+.cityInput {
+    height: 1.75rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border: 2px solid orange;
+    padding-left: 1rem;
+}
+
+
+.weather-details {
+    display: flex;
+    justify-content: space-evenly;
+    color: blanchedalmond
+}
+
+#temp {
+    font-weight: 600;
+    font-size: 50px;
+    color: aliceblue;
+}
+
+.location {
+    font-weight: 400;
+    font-size: 30px;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
